@@ -1,4 +1,4 @@
-import magicMock from '..';
+const magicMock = require('../index.js')
 
 test('has all of the properties', () => {
   const mock = magicMock();

@@ -1,4 +1,4 @@
-export default function magicMock() {
+module.exports = function magicMock() {
   const proxy = new Proxy(jest.fn(), {
     get: (target, key) => {
       if (key in target) {
