@@ -17,3 +17,5 @@ module.exports = function magicMock() {
 
   return proxy;
 }
+
+module.exports.default = module.exports
